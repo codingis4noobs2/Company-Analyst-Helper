@@ -10,7 +10,7 @@ st.set_page_config(
     page_title="Company Analyst Helper",
     page_icon=":chart_with_upwards_trend:",
     layout="centered",
-    initial_sidebar_state="auto"
+    initial_sidebar_state="collapsed"
 )
 
 load_dotenv()
