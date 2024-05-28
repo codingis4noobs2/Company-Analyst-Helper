@@ -51,7 +51,7 @@ if 'competitor' not in st.session_state:
     st.session_state.competitor = ''
 
 try:
-    st.session_state.input_url = st.text_input("Your company URL", st.session_state.input_url, placeholder="https://metaschool.so")
+    st.session_state.input_url = st.text_input("Your company URL", st.session_state.input_url, placeholder="https://metaschool.so, https://stackup.dev/")
     submit = st.button("Submit URL")
 
     if submit and st.session_state.input_url:
