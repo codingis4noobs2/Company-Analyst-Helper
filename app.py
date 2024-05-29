@@ -52,7 +52,7 @@ if 'competitor' not in st.session_state:
 
 st.warning("Do not add subdomains to the URL, For e.g. drive.google.com")
 try:
-    st.session_state.input_url = st.text_input("Your company URL", st.session_state.input_url, placeholder="https://metaschool.so, https://stackup.dev/")
+    st.session_state.input_url = st.text_input("Company URL", st.session_state.input_url, placeholder="https://metaschool.so, https://stackup.dev/")
     submit = st.button("Submit URL")
 
     if submit and st.session_state.input_url:
